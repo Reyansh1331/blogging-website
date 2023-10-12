@@ -74,7 +74,7 @@ app.post("/compose" , function(req,res){
   //   content : req.body.Body
   // }
   // arr.push(post);
-  // res.redirect("/");
+  res.redirect("/");
 })
 
 app.get("/posts/:val" , function(req,res){
