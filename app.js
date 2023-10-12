@@ -10,7 +10,7 @@ let arr = [];
 
 const homeStartingContent = "Are you a blogger ? Well you have come to the right place. Start writing your blog by clicking the COMPOSE button above. ";
 const aboutContent = "my name is akash aman";
-const contactContent = "email: akashaman277@gmail.com" phone : 9546150159;
+const contactContent = "email: akashaman277@gmail.com phone : 9546150159";
 const app = express();
 
 app.set('view engine', 'ejs');
