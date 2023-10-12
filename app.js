@@ -18,7 +18,7 @@ app.set('view engine', 'ejs');
 app.use(bodyParser.urlencoded({extended: true}));
 app.use(express.static("public"));
 // mongoose.connect("mongodb://localhost:27017/blogDB", {useNewUrlParser: true, useUnifiedTopology: true, useFindAndModify: false});
-const uri = "mongodb+srv://process.env.USERNAME:process.env.PASSWORD@cluster0.ja0teor.mongodb.net/BlogDB?retryWrites=true&w=majority";
+const uri = "mongodb+srv://akashaman27:Delhi@cluster0.ja0teor.mongodb.net/BlogDB?retryWrites=true&w=majority";
 
   async function run() {
     await mongoose.connect(uri);
