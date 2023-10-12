@@ -67,11 +67,7 @@ app.post("/compose" , function(req,res){
      content: req.body.Body,
     imag : req.body.Image
    });
-   post.save(function(err){
-     if (!err){
-       res.redirect("/");
-     }
-   });
+   post.save();
 
   // const post = {
   //   heading : req.body.Heading,
